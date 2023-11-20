@@ -99,6 +99,7 @@ a:hover {
   right: 0;
   background-color: white;
   width: fit-content;
+  z-index: 1;
   max-height: 0;
   overflow: hidden;
   transition: all 0.3 ease-in-out;
