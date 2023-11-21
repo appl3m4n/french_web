@@ -21,7 +21,7 @@
     }
     #experience,
     .experience-details-container {
-      margin-top: 2rem;
+      margin-top: -1rem;
     }
     #profile,
     .section-container {
@@ -43,7 +43,7 @@
       margin: 0 auto 2rem;
     }
     .about-containers {
-      margin-top: 0;
+      margin-top: 2rem;
     }
   }
   
