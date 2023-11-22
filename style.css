@@ -59,11 +59,15 @@ a:hover {
 }
 
 .logo {
-  font-size: 2rem;
+  /*font-size: 2rem;*/
+  height: 30px;
+  width: 30px;
+  /*object-fit: contain;*/
+  display: flex;
 }
 
 .logo:hover {
-  cursor: default;
+  /*cursor: default;*/
 }
 
 /* HAMBURGER MENU */
