@@ -60,8 +60,8 @@ a:hover {
 
 .logo {
   /*font-size: 2rem;*/
-  height: 30px;
-  width: 30px;
+  height: 40px;
+  width: 300px;
   /*object-fit: contain;*/
   display: flex;
 }
@@ -435,4 +435,15 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/* text formatting */
+span.h3_text {
+  /*display: block;*/
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
 }
