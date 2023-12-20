@@ -457,33 +457,43 @@ span.h3_text {
 }
 
 .about-details-container1 {
-  justify-content: center;
+  /*justify-content: center;*/
   flex-direction: column;
 }
 
 .about-containers1,
 .about-details-container1 {
   display: flex;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 .details-container1 {
   padding: 0.5rem;
   flex: 1;
   background-image: linear-gradient(to right, rgb(255, 114, 126) , rgb(140, 15, 223));
-  
   color: white;
   /*background: rgb(236,114,255);*/
   border-radius: 0.5rem;
   /*border: rgb(53, 53, 53) 0.1rem solid;*/
   /*border-color: rgb(163, 163, 163);*/
-  text-align: center;
-  justify-content: center;
+  /*text-align: center;*/
+}
+
+.details-container2 {
+  padding: 0.5rem;
+  flex: 1;
+  background-image: linear-gradient(to right, rgb(85, 85,85) , rgb(181, 181, 181));
+  color: white;
+  /*background: rgb(236,114,255);*/
+  border-radius: 0.5rem;
+  /*border: rgb(53, 53, 53) 0.1rem solid;*/
+  /*border-color: rgb(163, 163, 163);*/
+  /*text-align: center;*/
 }
 
 .about-containers1 {
   gap: 0.5rem;
   /*margin-bottom: 2rem;*/
   margin-top: 0.5rem;
-  text-align: center;
+  text-align: center;  
 }
