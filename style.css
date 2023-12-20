@@ -453,6 +453,7 @@ span.h3_text {
 .text-container1 {
   display: flex;
   flex-direction: column;
+  margin-bottom: 1.5rem;
 }
 
 .about-details-container1 {
@@ -467,7 +468,7 @@ span.h3_text {
 }
 
 .details-container1 {
-  padding: 1.5rem;
+  padding: 0.5rem;
   flex: 1;
   background-image: linear-gradient(to right, rgb(255, 114, 126) , rgb(140, 15, 223));
   
@@ -481,8 +482,8 @@ span.h3_text {
 }
 
 .about-containers1 {
-  gap: 2rem;
+  gap: 0.5rem;
   /*margin-bottom: 2rem;*/
-  margin-top: 2rem;
+  margin-top: 0.5rem;
   text-align: center;
 }
