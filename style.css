@@ -449,3 +449,8 @@ span.h3_text {
   margin-inline-end: 0px;
   font-weight: bold;
 }
+
+.text-container1 {
+  display: flex;
+  flex-direction: column;
+}
