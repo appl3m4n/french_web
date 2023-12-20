@@ -341,6 +341,10 @@ section {
   flex-direction: column;
 }
 
+img[alt="Article_Icon"] {
+  border-radius: 0.5rem;
+}
+
 .article-container {
   display: flex;
   text-align: initial;
