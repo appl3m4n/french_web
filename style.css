@@ -501,3 +501,11 @@ span.h3_text {
   margin-top: 0.5rem;
   text-align: center;  
 }
+
+/*article2*/
+.right {
+    text-align: right;
+    background-image: linear-gradient(to right, rgb(149, 214, 214) , rgb(181, 181, 181));
+        border-radius: 0.5rem;
+    padding: 0.5rem;
+}
