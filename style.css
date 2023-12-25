@@ -512,3 +512,25 @@ span.h3_text {
         border-radius: 0.5rem;
     padding: 0.5rem;
 }
+
+/*verbs*/
+
+.about-containers-verbs{
+  display: flex;
+  text-align: center;
+  gap: 2rem;
+  justify-content: space-around;
+}
+
+.details-container-verb1,.details-container-verb2 {
+  padding: 0.5rem;
+  flex: 1;
+  background-image: linear-gradient(to right, rgb(216, 216, 216) , rgb(181, 181, 181));
+  color: white;
+  /*background: rgb(236,114,255);*/
+  border-radius: 0.5rem;
+  /*border: rgb(53, 53, 53) 0.1rem solid;*/
+  /*border-color: rgb(163, 163, 163);*/
+  /*text-align: center;*/
+}
+

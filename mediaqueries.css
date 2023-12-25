@@ -105,4 +105,12 @@
     .text-container {
       text-align: justify;
     }
+
+    .about-containers-verbs{
+      display: flex;
+      text-align: center;
+      gap: 0.5rem;
+      justify-content: space-around;
+      flex-direction: column;
+    }
   }
