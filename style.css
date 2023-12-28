@@ -536,17 +536,17 @@ span.h3_text {
 
 /*image-grid*/
 .image-grid {
-	--gap: 16px;
-	--num-cols: 4;
-	--row-height: 300px;
+	
+	--num-cols: 3;
+	--row-height: 200px;
 
 	box-sizing: border-box;
-	padding: var(--gap);
+	padding: 0px;
 
 	display: grid;
 	grid-template-columns: repeat(var(--num-cols), 1fr);
-	grid-auto-rows: var(--row-height);
-	gap: var(--gap);
+	/*grid-auto-rows: var(--row-height);*/
+	gap: 0.5rem;
 }
 
 .image-grid>img {
@@ -566,7 +566,7 @@ span.h3_text {
 /* Anything under 1024px */
 @media screen and (max-width: 1024px) {
 	.image-grid {
-		--num-cols: 2;
+		--num-cols: 3;
 		--row-height: 200px;
 	}
 }
