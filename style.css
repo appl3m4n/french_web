@@ -555,13 +555,7 @@ span.h3_text {
 	object-fit: cover;
 }
 
-.image-grid-col-2 {
-	grid-column: span 2;
-}
 
-.image-grid-row-2 {
-	grid-row: span 2;
-}
 
 /* Anything under 1024px */
 @media screen and (max-width: 1024px) {
@@ -569,4 +563,12 @@ span.h3_text {
 		--num-cols: 3;
 		--row-height: 200px;
 	}
+
+  .image-grid-col-2 {
+    grid-column: span 2;
+  }
+  
+  .image-grid-row-2 {
+    grid-row: span 2;
+  }
 }
