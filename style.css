@@ -282,6 +282,12 @@ section {
   margin-top: 2rem;
 }
 
+.about-containers-first {
+  gap: 2rem;
+  margin-top: 2rem;
+  display: flex;
+}
+
 .about-details-container {
   justify-content: center;
   flex-direction: column;
