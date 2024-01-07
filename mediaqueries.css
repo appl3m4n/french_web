@@ -114,7 +114,7 @@
       flex-direction: column;
     }
 
-    .about-containers, .about-details-container {
+    .about-containers,.about-containers-first, .about-details-container {
       display: flex;
       flex-direction: column;
     }
