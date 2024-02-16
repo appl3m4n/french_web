@@ -2,9 +2,9 @@ import webbrowser
 import time
 import openai
 
-str1 = 'sk-DUcs51jM5Pz0NeyLnWyY'
-str2 = 'T3BlbkFJkkvbdmHt'
-str3 = 'MslyktK7xLis'
+str1 = 'sk-6DurzFcba69Gqq8KkZeAT3B'
+str2 = 'lbkFJYWeBEwHHM'
+str3 = 'JVnBzt79unM'
 
 
 openai.api_key = str1 + str2 + str3
