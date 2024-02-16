@@ -8,7 +8,7 @@ str3 = 'MslyktK7xLis'
 
 
 openai.api_key = str1 + str2 + str3
-#"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"
+
 x = "Give me 7 ideas for a date in Paris"
 completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[{"role": "user", "content": x}])
 y = [completion.choices[0].message.content]
