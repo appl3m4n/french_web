@@ -1,6 +1,9 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "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"
 
-completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[{"role": "user", "content": "Give me 3 ideas for a date in Paris"}])
-print(completion.choices[0].message.content)
+x = "Give me 3 ideas for a date in Paris"
+
+completion = openai.ChatCompletion.create(model="gpt-3.5-turbo", messages=[{"role": "user", "content": x}])
+y = print(completion.choices[0].message.content)
+print(y)

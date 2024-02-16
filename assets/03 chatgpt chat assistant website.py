@@ -3,7 +3,7 @@ import gradio
 
 openai.api_key = "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"
 
-messages = [{"role": "system", "content": "You are a Data Management and Quality"}]
+messages = [{"role": "system", "content": "You are a Data Management and Quality  "}]
 
 def CustomChatGPT(user_input):
     messages.append({"role": "user", "content": user_input})
